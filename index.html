@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chakriPortfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Home</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Tools">Tools</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="./gallery.html">Blog</a></li>
+          <li><a href="/certificate.html">Certificates</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Chakravarthi Atipamula</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/chakri.jpeg" alt="profile picture" />
+      </div>
+      
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Chakravarthi Atipamula</h1>
+    
+        <!-- Typing Animation Text -->
+        <p class="section__text__p2">
+          <span id="typed-text"></span>
+        </p>
+    
+        <!-- Buttons -->
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="downloadAndViewCV()">
+            View CV
+          </button>
+          
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+    
+        <!-- Social Links -->
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/chakravarthi-atipamula-8293aa217'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/catipamula'"
+          />
+        </div>
+      </div>
+    </section>
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1><br><br>
+      <div class="section-container">
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Python Full Stack Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech. Bachelors Degree<br />Artificial Intelligence & Data Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              <h2>Hii..!</h2>
+              <p>
+                  I am a dedicated Python Full Stack Developer with over 1 year of hands-on experience in building dynamic and scalable web applications. My expertise spans both front-end and back-end development, with a strong focus on creating efficient, user-centric solutions using modern technologies.
+              </p>
+              <p>
+                  I hold a Bachelor’s degree in Artificial Intelligence & Data Science, which has equipped me with a solid foundation in AI, machine learning, and data-driven problem-solving. Combining my academic background with real-world development experience, I bring a unique perspective to crafting intelligent and innovative web applications.
+              </p>
+              <p>
+                  I am passionate about continuous learning and enjoy tackling complex challenges that drive impactful results.
+              </p>
+          </div>            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#Tools'"
+      /><br><br>
+    </section>
+    <section id="Tools"
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Tools & Technologies</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/html (2).png"
+                  alt="Experience icon"
+                  class="icon" height="110px" width="37px"
+                />
+                <div>
+                  <h3>HTML</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/css.png"
+                  alt="Experience icon"
+                  class="icon" height="110px" width="37px"   />
+                <div>
+                  <h3>CSS</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                 
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Back-End Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/python.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/django.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django </h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/mysql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>My Sql</h3>
+                 
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/data-science.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Science</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/numpy.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Numpy</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/pandas.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas</h3>
+                 
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="Tools"
+      
+      <div class="Tools">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/git.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/vscode.png"
+                  alt="Experience icon"
+                  class="icon" height="110px" width="37px"
+                />
+                <div>
+                  <h3>VScode</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/gc.png"
+                  alt="Experience icon"
+                  class="icon" height="110px" width="37px"   />
+                <div>
+                  <h3>GoogleColab</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/jn.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JupyterNotebook</h3>
+                 
+                </div>
+              </article>
+
+            </div>
+          </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#ex'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">My Journey</p>
+      <h1 class="title">Professional Experience</h1>
+      <div class="experience-details-container">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Datavalley.ai</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/DVi_logo.jpeg" alt="Datavalley.ai logo" class="icon" height="110" width="40" />
+              <div>
+                <h3>Jr.Software Engineer</h3>
+                <p><strong>Duration:</strong> 1 Year</p>
+                <p><strong>Responsibilities:</strong></p>
+                <ul>
+                  <li>Developed and maintained full-stack applications using Python, Django.</li>
+                  <li>Led a junior development team, ensuring timely delivery of projects.</li>
+                  <li>Worked on real-time analytics integrations using Python-based tools and frameworks.</li>
+                  <li>Contributed to AI/ML projects, integrating machine learning models into web applications.</li>
+                  <li>Collaborated with cross-functional teams to design and implement scalable solutions.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects">
+  <p class="section__text__p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <!-- Project One -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/HP.png" alt="Project 1" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">House Price </h2>
+        <div class="btn-container">
+          <!-- GitHub Link -->
+          <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/catipamula/House-price-prediction.git', '_blank')">
+            GitHub
+          </button> -->
+          <!-- Live Demo Video -->
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://mega.nz/file/dtoCzSpL#xq-_j4MKgKEC5kvNaXfssgdzDWqKl7hl-v_Xit-bPyc', '_blank')">
+            Live Demo
+        </button>
+        </div>
+      </div>
+
+      <!-- Project Two -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/voting.jpg" alt="Project 2" class="project-img" height="25%" width="10px" />
+        </div>
+        <h2 class="experience-sub-title project-title">E-voting using Block chain </h2>
+        <div class="btn-container">
+          <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/catipamula/blockchain-on-evoting.git', '_blank')">
+            GitHub
+          </button> -->
+          <!-- <button class="btn btn-color-2 project-btn" onclick="playVideo('./assets/e-voting.mp4')">
+            Live Demo
+          </button> -->
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://mega.nz/file/N4BiTaaI#8a-nHQMGsf_X7BPn71-aMuqX-fVuY9eLSRP5qQIXTyc', '_blank')">
+            Live Demo
+        </button>
+        
+
+        </div>
+      </div>
+
+      <!-- Project Three -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/papercraft.jpg" alt="Project 3" class="project-img" />
+        </div>
+        <h2 class="experience-sub-title project-title">Diy crafting </h2>
+        <div class="btn-container">
+          <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/catipamula/diycrafting.git', '_blank')">
+            GitHub
+          </button> -->
+          <button class="btn btn-color-2 project-btn" onclick="window.location.href='http://diycrafting.netlify.app';">
+            Live Demo
+        </button>        
+        </div>
+      </div>
+
+      <!-- Project Four -->
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/zoom.jpg" alt="Project 2" class="project-img" height="25%" width="10px" />
+        </div>
+        <h2 class="experience-sub-title project-title">Zoom Clone App </h2>
+        <div class="btn-container">
+          <!-- <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/catipamula/blockchain-on-evoting.git', '_blank')">
+            GitHub
+          </button> -->
+          <!-- <button class="btn btn-color-2 project-btn" onclick="playVideo('./assets/zoom-clone.mp4')">
+            Live Demo
+          </button> -->
+          <button class="btn btn-color-2 project-btn" onclick="window.open('https://mega.nz/file/B9onmIRS#5oL5UGtQUPq3ap4O0imm0JM4zehddgLXsrbLvdH0JtQ', '_blank')">
+            Live Demo
+        </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div id="videoModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center;">
+    <video id="demoVideo" controls style="max-width:80%; max-height:80%;"></video>
+    <button onclick="closeVideo()" style="position:absolute; top:20px; right:20px; font-size:24px; color:white;">&times;</button>
+  </div>
+
+  <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+</section>
+
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+
+  <form id="contactForm" action="https://formspree.io/f/mwplgedn" method="POST">
+    <input type="hidden" name="_subject" value="New Contact Form Submission">
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit" id="submitBtn">Send Message</button>
+    <p id="loadingMessage" style="display: none;">Sending your message...</p>
+  </form>
+</section>
+
+
+<footer>
+      <p>Copyright &#169; Chakravarthi Atipamula. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Include Typed.js Library -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- Typing Animation Script --><script>
+  // Show alert after form submission
+  document.getElementById("contactForm").addEventListener("submit", function() {
+    alert("Your message has been sent successfully!");
+  });
+
+  function playVideo(videoUrl) {
+    window.open(videoUrl, '_blank');
+  }
+
+  // Typing Animation (Typed.js)
+  var typed = new Typed("#typed-text", {
+    strings: [
+      "Full Stack Python Developer",
+      "Back-End Developer",
+      "Data-Science Enthusiast"
+    ],
+    typeSpeed: 50,        // Typing speed
+    backSpeed: 30,        // Backspacing speed
+    backDelay: 1500,      // Pause before deleting
+    loop: true            // Loop the animation
+  });
+
+  // Download and View CV Functionality
+  function downloadAndViewCV() {
+    const fileUrl = '/assets/CHAKRAVARTHII_RESUME.pdf';
+
+    // Trigger the download
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = 'CHAKRAVARTHI.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    // Open the file in a new tab for viewing
+    window.open(fileUrl, '_blank');
+  }
+
+  // Video Modal Controls
+  function playVideo(videoSrc) {
+    const modal = document.getElementById('videoModal');
+    const video = document.getElementById('demoVideo');
+    video.src = videoSrc;
+    modal.style.display = 'flex';
+    video.play();
+  }
+
+  function closeVideo() {
+    const modal = document.getElementById('videoModal');
+    const video = document.getElementById('demoVideo');
+    video.pause();
+    video.currentTime = 0;
+    modal.style.display = 'none';
+  }
+</script>
+
+  </body>
+</html>

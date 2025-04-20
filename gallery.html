@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshops - Hackathons Gallery</title>
+    <link rel="stylesheet" href="/gallery.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html">Home</a>
+    </div>
+    
+    <h1>Workshops - Hackathons</h1>
+    <div class="gallery-container">
+        <!-- College 1 -->
+        <div class="college" onclick="showGallery('college1')">
+            <img src="/assets/blog/stmarys_logo.jpg" alt="College 1 Logo">
+            <p>St.Marys group of institutions Guntur BootCamp</p>
+        </div>
+
+        <!-- College 2 -->
+        <div class="college" onclick="showGallery('college2')">
+            <img src="assets/blog/JFS_loyala/litam.jpeg" alt="JFS_litam Logo">
+            <p> Loyola Institute of Technology And Management JFS-Bootcamp</p>
+        </div>
+
+        <!-- College 5 -->
+        <div class="college" onclick="showGallery('college5')">
+            <img src="assets/blog/GenAi bootcamp5/sacet.jpg" alt="Sacet Gen-Ai Logo">
+            <p> Sacet chirala - GenAi bootcamp</p>
+        </div>
+
+        <!-- College 3 -->
+        <div class="college" onclick="showGallery('college3')">
+            <img src="assets/blog/Rkclg3/Rk.jpg" alt="Rkclg Logo">
+            <p> Rkcollege PFS-Bootcamp</p>
+        </div>
+
+        <!-- College 4 -->
+        <div class="college" onclick="showGallery('college4')">
+            <img src="assets/blog/PFS4/litam.jpeg" alt="PFS_litam Logo">
+            <p> Litam college PFS-Bootcamp</p>
+        </div>
+
+         <!-- College 6 -->
+         <div class="college" onclick="showGallery('college6')">
+            <img src="assets/blog/stmarys_logo.jpg" alt="PFS_litam Logo">
+            <p> St.Marys group of institutions <br>Guntur-Hackthon</p>
+        </div>   
+        <!-- College 7 -->
+        <div class="college" onclick="showGallery('college7')">
+            <img src="assets/blog/eswarclg/eswarlogo.png" alt="PFS_litam Logo">
+            <p> Eswar college Web-developement-Hackathon</p>
+        </div>
+
+        <!-- College 8 -->
+        <div class="college" onclick="showGallery('college8')">
+            <img src="assets/blog/PFS4/litam.jpeg" alt="PFS_litam Logo">
+            <p> Litam college Web-developement-Hackathon</p>
+        </div>
+
+
+
+        <!-- Add More Colleges as Needed -->
+    </div>
+
+  <!-- College 1 Gallery -->
+  <div id="college1" class="gallery">
+    <span class="close" onclick="closeGallery('college1')">&times;</span>
+    <div class="images">
+        <img src="assets/blog/stmarys/1.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/stmarys/2.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/stmarys/3 (1).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/stmarys/3 (2).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/stmarys/4 (1).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/stmarys/4 (2).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/stmarys/5 (1).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/stmarys/5 (2).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/stmarys/6.jpg" onclick="openLightbox(this.src)">
+    </div>
+</div>
+
+<!-- Lightbox for Fullscreen Preview -->
+<div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <span class="prev" onclick="prevImage()">&#10094;</span>
+    <img id="lightbox-img" src="">
+    <span class="next" onclick="nextImage()">&#10095;</span>
+</div>
+
+
+
+    <!-- College 2 Gallery -->
+    <div id="college2" class="gallery">
+        <span class="close" onclick="closeGallery('college2')">&times;</span>
+        <div class="images">
+            <img src="assets/blog/JFS_loyala/1.jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/2 (1).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/2 (2).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/3 (1).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/3 (2).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/4 (1).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/4 (2).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/5 (1).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/5 (2).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/5 (3).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/6 (1).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/6 (2).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/6 (3).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/6 (4).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/6 (5).jpg" onclick="openLightbox(this.src)">
+            <img src="assets/blog/JFS_loyala/6 (6).jpg" onclick="openLightbox(this.src)">
+        </div>
+    </div>
+    
+    <!-- Lightbox for Fullscreen Preview -->
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <span class="prev" onclick="prevImage()">&#10094;</span>
+        <img id="lightbox-img" src="">
+        <span class="next" onclick="nextImage()">&#10095;</span>
+    </div>
+
+    
+  <!-- College 3 Gallery -->
+  <div id="college3" class="gallery">
+    <span class="close" onclick="closeGallery('college3')">&times;</span>
+    <div class="images">
+        <img src="assets/blog/Rkclg3/1.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/Rkclg3/2.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/Rkclg3/3.jpg" onclick="openLightbox(this.src)">
+        
+        
+    </div>
+</div>
+
+<!-- Lightbox for Fullscreen Preview -->
+<div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <span class="prev" onclick="prevImage()">&#10094;</span>
+    <img id="lightbox-img" src="">
+    <span class="next" onclick="nextImage()">&#10095;</span>
+</div>
+ 
+
+  <!-- College 4 Gallery -->
+  <div id="college5" class="gallery">
+    <span class="close" onclick="closeGallery('college5')">&times;</span>
+    <div class="images">
+        <img src="assets/blog/GenAi bootcamp5/1.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/GenAi bootcamp5/2.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/GenAi bootcamp5/3.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/GenAi bootcamp5/4.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/GenAi bootcamp5/5.jpg" onclick="openLightbox(this.src)">
+    </div>
+</div>
+
+<!-- Lightbox for Fullscreen Preview -->
+<div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <span class="prev" onclick="prevImage()">&#10094;</span>
+    <img id="lightbox-img" src="">
+    <span class="next" onclick="nextImage()">&#10095;</span>
+</div>
+
+  
+  <!-- College 3 Gallery -->
+  <div id="college4" class="gallery">
+    <span class="close" onclick="closeGallery('college4')">&times;</span>
+    <div class="images">
+        <img src="assets/blog/PFS4/1 (1).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/PFS4/1 (2).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/PFS4/1 (3).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/PFS4/1 (4).jpg" onclick="openLightbox(this.src)">        
+    </div>
+</div>
+
+<!-- Lightbox for Fullscreen Preview -->
+<div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <span class="prev" onclick="prevImage()">&#10094;</span>
+    <img id="lightbox-img" src="">
+    <span class="next" onclick="nextImage()">&#10095;</span>
+</div>
+
+
+  <!-- College 3 Gallery -->
+  <div id="college6" class="gallery">
+    <span class="close" onclick="closeGallery('college6')">&times;</span>
+    <div class="images">
+        <img src="assets/blog/st_marys_Hackathon6/1 (1).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/st_marys_Hackathon6/1 (2).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/st_marys_Hackathon6/2 (1).jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/st_marys_Hackathon6/3.jpg" onclick="openLightbox(this.src)">
+    </div>
+</div>
+
+<!-- Lightbox for Fullscreen Preview -->
+<div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <span class="prev" onclick="prevImage()">&#10094;</span>
+    <img id="lightbox-img" src="">
+    <span class="next" onclick="nextImage()">&#10095;</span>
+</div>
+<!-- College 7 Gallery -->
+<div id="college7" class="gallery">
+    <span class="close" onclick="closeGallery('college7')">&times;</span>
+    <div class="images">
+        <img src="assets/blog/eswarclg/1.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/eswarclg/2.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/eswarclg/3.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/eswarclg/4.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/eswarclg/5.jpg" onclick="openLightbox(this.src)">
+    </div>
+</div>
+
+<!-- College 8 Gallery -->
+<div id="college8" class="gallery">
+    <span class="close" onclick="closeGallery('college8')">&times;</span>
+    <div class="images">
+        <img src="assets/blog/lithamWD/1.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/lithamWD/2.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/lithamWD/3.jpg" onclick="openLightbox(this.src)">
+        <img src="assets/blog/lithamWD/4.jpg" onclick="openLightbox(this.src)">
+    </div>
+</div>
+
+<!-- 🔥 Only ONE Lightbox (Place at bottom of page!) -->
+<div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">&times;</span>
+    <span class="prev" onclick="prevImage()">&#10094;</span>
+    <img id="lightbox-img" src="">
+    <span class="next" onclick="nextImage()">&#10095;</span>
+</div>
+
+
+    <script src="/gallery.js"></script>
+</body>
+</html>
